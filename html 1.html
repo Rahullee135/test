@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 1 </title>
+    <style>
+      /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+abbr{
+    display: inline;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+        </style>
+
+<base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+    
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+
+<a href = "https://www.youtube.com/watch?v=Fp8msa5uYsc">click this link</a>
+<br><br/>
+
+<a href ="https://www.youtube.com/watch?v=Fp8msa5uYsc" target ="_blank" >click</a>
+<br><br/>
+
+<a href="mailto:someone@example.com">Send email</a>
+<br><br/>
+
+<a href="tel:+1111111">+111111</a>
+<br><br/>
+
+<a href="javascript:alert('Hello world')">javascript using html</a>
+<br><br/>
+
+The <abbr title="hyper text language">html</abbr>
+<br><br/>
+
+<p>The<dfn> <abbr title="hyper text language">html</abbr></dfn></p>
+<br><br/>
+
+
+<address>
+    Iris Watson<a href="https://www.summet.com/dmsi/html/codesamples/addresses.html">address was taken from this link</a> <br>
+P.O. Box 283 8562 Fusce Rd.<br>
+Frederick Nebraska 20620<br>
+(372) 587-2335<br>
+</address>
+
+
+<img src="dbz.jpg" alt="dbz" usemap="#dbz" width="400" height="379">
+
+<map name="dbz">
+  <area shape="rect" coords="34,44,270,350" alt="ss form" href="https://dragonball.fandom.com/wiki/Super_Saiyan">
+</map>
+
+
+<article>
+  <h2>Google Chrome</h2>
+  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+
+
+  <aside>
+    <h4>Epcot Center</h4>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </aside>
+
+
+  <h1>audio tag here </h1>
+
+<audio controls>
+
+  <source src="kidlaro.mp3" type="audio/mp4" >
+
+</audio>
+
+<br><br/>
+<h1>bold tag b</h1>
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+
+<br><br/>
+
+<h1>example for base tag</h1>
+<a href="https://baki.fandom.com/wiki/Yuujiro_Hanma" alt="Yuujiro_Hanma">hanma family</a>
+
+<h1>bdi element</h1>
+
+<ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+
+<br><br/>
+<h1>The bdo element</h1>
+
+<p>This paragraph will go left-to-right.</p>  
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+
+
+<h1>The blockquote element</h1>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+<br><br/>
+<button type="button">Click Me!</button>
+<h1>The canvas element</h1>
+
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+
+<table>
+  <caption>hi</caption>
+  <tr>
+    <th>rahul</th>
+    <th>prasad</th>
+  </tr>
+  <tr>
+    <td> ayy </td>
+    <td>lma</td>
+  </tr>
+</table>
+
+<h1>the cite element</h1>
+<img src="dbz.jpg">
+<p><cite>dragon ball z </cite></p>
+
+
+<h1>The code element</h1>
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+<br><br/>
+
+
+<h1>The col element</h1>
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+<br><br/>
+
+
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+<br></br>
+
+
+
+
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<input type="submit">
+
+<h1>decription tag</h1>
+<dl>
+  <dt>hi</dt>
+  <dd>bye</dd>
+</dl>
+
+
+<h1>delete tag</h1>
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<h1>details tag</h1>
+<details>
+  <summary>click this</summary>
+  <p>hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+</details>
+
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+
+</body>
+</html>
